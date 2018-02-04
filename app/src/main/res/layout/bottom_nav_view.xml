@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#191919"
+    android:layout_alignParentBottom="true">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    >
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="2dp"
+        android:tint="#fff"
+        app:srcCompat="@drawable/ic_dashboard_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/img1"
+        android:layout_alignStart="@+id/img1"
+        android:layout_below="@+id/img1"
+        android:text="Home"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/img1"
+        app:srcCompat="@drawable/ic_browser"
+        android:tint="#fff"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt1"
+        android:layout_alignBottom="@+id/txt1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="33dp"
+        android:layout_toEndOf="@+id/txt1"
+        android:layout_toRightOf="@+id/txt1"
+        android:text="Browser"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/ic_search"
+        android:tint="#fff"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt2"
+        android:layout_alignBottom="@+id/txt2"
+        android:layout_centerHorizontal="true"
+        android:text="Search"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/img3"
+        app:srcCompat="@drawable/ic_radio"
+        android:tint="#fff"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt3"
+        android:layout_alignBottom="@+id/txt3"
+        android:layout_alignLeft="@+id/img4"
+        android:layout_alignStart="@+id/img4"
+        android:text="Radio"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="39dp"
+        android:layout_toRightOf="@id/img4"
+        app:srcCompat="@drawable/ic_library"
+        android:tint="#fff"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txt4"
+        android:layout_alignBottom="@+id/txt4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Your Library"
+        android:textColor="#fff"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>
+
+
+
+</LinearLayout>
